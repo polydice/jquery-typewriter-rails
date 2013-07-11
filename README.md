@@ -1,24 +1,19 @@
-# Jquery::Typewriter::Rails
+# jQuery Typewriter for Rails
 
-TODO: Write a gem description
-
-## Installation
-
-Add this line to your application's Gemfile:
-
-    gem 'jquery-typewriter-rails'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install jquery-typewriter-rails
+[jquery-typewriter](https://github.com/dmrschmidt/jquery-typewriter) is a jQuery plugin written by [Dennis Schmidt](https://github.com/dmrschmidt). The jQuery typewriter allows you to easily add the effect of an old-shool typewriter writing your text to the page.
 
 ## Usage
 
-TODO: Write usage instructions here
+Add the following to your `Gemfile`:
+
+    gem 'jquery-typewriter-rails'
+
+Add the following directive to your JavaScript manifest file (for example, `application.js`):
+
+    //= require jquery.typewriter
+    
+For full documentation please visit [the original documentation site](http://dmrschmidt.github.com/jquery-typewriter/documentation.html) of this plugin.
+
 
 ## Contributing
 
